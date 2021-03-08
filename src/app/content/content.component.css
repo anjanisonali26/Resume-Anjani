@@ -1,0 +1,39 @@
+.img-vector {
+    float: right;
+    margin-top: -18%;
+    margin-right: 0%;
+}
+.wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+a.btn.btn-outline-warning {
+    background-color: #eed830;
+    border: 1px solid #9cd024;
+    color: #fff;
+    font-weight: 700;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 13px 7%;
+    margin-right: 50px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease-in-out 0s;
+}
+a.btn.btn-outline-warning:hover{
+
+    background-color: rgb(226, 150, 34);
+    color: #140f18;
+    transition: all .3s ease 0s;
+    transform: translateY(-3px);
+}
