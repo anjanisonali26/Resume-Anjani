@@ -1,0 +1,51 @@
+*{
+    color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 109px;
+    margin-left: 12%;
+}
+.card.first {
+    background-color: rgb(121, 45, 45);
+    border: 5px solid  rgb(121, 45, 45);
+    width: 200px;
+    padding: 2em;
+    margin: 0em auto;
+    transition: all 1s;
+}
+.card.first:hover{
+    border-color: rgb(226, 44, 31);
+    box-shadow: 0 5px 7px #000;
+    margin-top: 2em;
+}
+.card.second {
+    background-color: rgb(196, 119, 132);
+    border: 5px solid  rgb(196, 119, 132);
+    width: 200px;
+    padding: 2em;
+    margin: 0em auto;
+    transition: all 1s;
+}
+.card.second:hover{
+    border-color: rgb(243, 167, 162);
+    box-shadow: 0 5px 7px #000;
+    margin-top: 2em;
+}
+.card.third {
+    background-color: rgb(187, 128, 17);
+    border: 5px solid  rgb(187, 128, 17);
+    width: 200px;
+    padding: 2em;
+    margin: 0em auto;
+    transition: all 1s;
+}
+.card.third:hover{
+    border-color: rgb(255, 225, 0);
+    box-shadow: 0 5px 7px #000;
+    margin-top: 2em;
+}
+img.card-img-top {
+    border-radius: 7pc;
+}
